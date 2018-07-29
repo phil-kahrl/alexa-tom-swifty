@@ -1,0 +1,1813 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tom swifty",
+      "intents": [{
+          "name": "ConfirmIntent",
+          "samples": [
+            "yes",
+            "yes please",
+            "next",
+            "keep going",
+            "more",
+            "okay",
+            "of course",
+            "sure",
+            "why not"
+          ]
+        }, {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel",
+            "no",
+            "no thanks",
+            "no thank you"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "that's enough",
+            "stop",
+            "no more"
+          ]
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": [
+            "next",
+            "another",
+            "more",
+            "keep going"
+          ]
+        },
+        {
+          "name": "GetRandomItemIntent",
+          "samples": [
+            "a Tom Swifty",
+            "Tom Swifty",
+            "Swifty",
+            "a Swifty",
+            "tell me a Swifty"
+
+          ]
+        },
+        {
+          "name": "GetByKeyword",
+          "samples": [
+            "Tom said {keyword}",
+            "{keyword} said Tom",
+            "{keyword}"
+          ],
+          "slots": [{
+            "name": "keyword",
+            "type": "KEYWORDS"
+          }]
+        },
+        {
+          "name": "RepeatIntent",
+          "samples": [
+            "repeat",
+            "say again",
+            "please repeat",
+            "please repeat that"
+          ]
+        }
+      ],
+      "types": [{
+        "name": "KEYWORDS",
+        "values": [{
+            "name": {
+              "value": "crestfallen"
+            }
+          },
+          {
+            "name": {
+              "value": "cryptically"
+            }
+          },
+          {
+            "name": {
+              "value": "nonplussed"
+            }
+          },
+          {
+            "name": {
+              "value": "ruefully"
+            }
+          },
+          {
+            "name": {
+              "value": "dryly"
+            }
+          },
+          {
+            "name": {
+              "value": "marbeled"
+            }
+          },
+          {
+            "name": {
+              "value": "crabbily"
+            }
+          },
+          {
+            "name": {
+              "value": "off-handedly"
+            }
+          },
+          {
+            "name": {
+              "value": "requested"
+            }
+          },
+          {
+            "name": {
+              "value": "succincty"
+            }
+          },
+          {
+            "name": {
+              "value": "croaked"
+            }
+          },
+          {
+            "name": {
+              "value": "gushed"
+            }
+          },
+          {
+            "name": {
+              "value": "icily"
+            }
+          },
+          {
+            "name": {
+              "value": "defeatedly"
+            }
+          },
+          {
+            "name": {
+              "value": "curiously"
+            }
+          },
+          {
+            "name": {
+              "value": "disarmingly"
+            }
+          },
+          {
+            "name": {
+              "value": "sternly"
+            }
+          },
+          {
+            "name": {
+              "value": "presently"
+            }
+          },
+          {
+            "name": {
+              "value": "stridently"
+            }
+          },
+          {
+            "name": {
+              "value": "giltily"
+            }
+          },
+          {
+            "name": {
+              "value": "winningly"
+            }
+          },
+          {
+            "name": {
+              "value": "explained condescendingly"
+            }
+          },
+          {
+            "name": {
+              "value": "lackadaisically"
+            }
+          },
+          {
+            "name": {
+              "value": "listlessly"
+            }
+          },
+          {
+            "name": {
+              "value": "with interest"
+            }
+          },
+          {
+            "name": {
+              "value": "rejoined"
+            }
+          },
+          {
+            "name": {
+              "value": "saucily"
+            }
+          },
+          {
+            "name": {
+              "value": "grimly"
+            }
+          },
+          {
+            "name": {
+              "value": "infinite wisdom"
+            }
+          },
+          {
+            "name": {
+              "value": "with relish"
+            }
+          },
+          {
+            "name": {
+              "value": "pointed out"
+            }
+          },
+          {
+            "name": {
+              "value": "being frank"
+            }
+          },
+          {
+            "name": {
+              "value": "loftily"
+            }
+          },
+          {
+            "name": {
+              "value": "sheepishly"
+            }
+          },
+          {
+            "name": {
+              "value": "buzzed"
+            }
+          },
+          {
+            "name": {
+              "value": "moped"
+            }
+          },
+          {
+            "name": {
+              "value": "absentmindedly"
+            }
+          },
+          {
+            "name": {
+              "value": "abstractly"
+            }
+          },
+          {
+            "name": {
+              "value": "heavy accent"
+            }
+          },
+          {
+            "name": {
+              "value": "acidly"
+            }
+          },
+          {
+            "name": {
+              "value": "admitted"
+            }
+          },
+          {
+            "name": {
+              "value": "advanced"
+            }
+          },
+          {
+            "name": {
+              "value": "alleged"
+            }
+          },
+          {
+            "name": {
+              "value": "apologetically"
+            }
+          },
+          {
+            "name": {
+              "value": "agreed"
+            }
+          },
+          {
+            "name": {
+              "value": "allowed"
+            }
+          },
+          {
+            "name": {
+              "value": "amply"
+            }
+          },
+          {
+            "name": {
+              "value": "archaically"
+            }
+          },
+          {
+            "name": {
+              "value": "argument"
+            }
+          },
+          {
+            "name": {
+              "value": "arrestingly"
+            }
+          },
+          {
+            "name": {
+              "value": "aspiringly"
+            }
+          },
+          {
+            "name": {
+              "value": "assented"
+            }
+          },
+          {
+            "name": {
+              "value": "autobiographically"
+            }
+          },
+          {
+            "name": {
+              "value": "balefully"
+            }
+          },
+          {
+            "name": {
+              "value": "barbarously"
+            }
+          },
+          {
+            "name": {
+              "value": "barked"
+            }
+          },
+          {
+            "name": {
+              "value": "bawled"
+            }
+          },
+          {
+            "name": {
+              "value": "begrudgingly"
+            }
+          },
+          {
+            "name": {
+              "value": "beguilingly"
+            }
+          },
+          {
+            "name": {
+              "value": "belatedly"
+            }
+          },
+          {
+            "name": {
+              "value": "bellowed"
+            }
+          },
+          {
+            "name": {
+              "value": "bickered"
+            }
+          },
+          {
+            "name": {
+              "value": "bitingly"
+            }
+          },
+          {
+            "name": {
+              "value": "blank stare"
+            }
+          },
+          {
+            "name": {
+              "value": "blankly"
+            }
+          },
+          {
+            "name": {
+              "value": "bluntly"
+            }
+          },
+          {
+            "name": {
+              "value": "blustered"
+            }
+          },
+          {
+            "name": {
+              "value": "boldly"
+            }
+          },
+          {
+            "name": {
+              "value": "board"
+            }
+          },
+          {
+            "name": {
+              "value": "boringly"
+            }
+          },
+          {
+            "name": {
+              "value": "bountifully"
+            }
+          },
+          {
+            "name": {
+              "value": "briefly"
+            }
+          },
+          {
+            "name": {
+              "value": "bristled"
+            }
+          },
+          {
+            "name": {
+              "value": "callously"
+            }
+          },
+          {
+            "name": {
+              "value": "candidly"
+            }
+          },
+          {
+            "name": {
+              "value": "cannily"
+            }
+          },
+          {
+            "name": {
+              "value": "carelessly"
+            }
+          },
+          {
+            "name": {
+              "value": "casually"
+            }
+          },
+          {
+            "name": {
+              "value": "caustically"
+            }
+          },
+          {
+            "name": {
+              "value": "charmingly"
+            }
+          },
+          {
+            "name": {
+              "value": "chimed in"
+            }
+          },
+          {
+            "name": {
+              "value": "choked"
+            }
+          },
+          {
+            "name": {
+              "value": "clamored"
+            }
+          },
+          {
+            "name": {
+              "value": "clandestinely"
+            }
+          },
+          {
+            "name": {
+              "value": "coached"
+            }
+          },
+          {
+            "name": {
+              "value": "conceitedly"
+            }
+          },
+          {
+            "name": {
+              "value": "concentration"
+            }
+          },
+          {
+            "name": {
+              "value": "condescendingly"
+            }
+          },
+          {
+            "name": {
+              "value": "confirmed"
+            }
+          },
+          {
+            "name": {
+              "value": "consented"
+            }
+          },
+          {
+            "name": {
+              "value": "considerately"
+            }
+          },
+          {
+            "name": {
+              "value": "considered"
+            }
+          },
+          {
+            "name": {
+              "value": "consolingly"
+            }
+          },
+          {
+            "name": {
+              "value": "contemptuously"
+            }
+          },
+          {
+            "name": {
+              "value": "contentedly"
+            }
+          },
+          {
+            "name": {
+              "value": "continently"
+            }
+          },
+          {
+            "name": {
+              "value": "contritely"
+            }
+          },
+          {
+            "name": {
+              "value": "conviction"
+            }
+          },
+          {
+            "name": {
+              "value": "coolly"
+            }
+          },
+          {
+            "name": {
+              "value": "cornily"
+            }
+          },
+          {
+            "name": {
+              "value": "corroborated"
+            }
+          },
+          {
+            "name": {
+              "value": "counterproductively"
+            }
+          },
+          {
+            "name": {
+              "value": "coyly"
+            }
+          },
+          {
+            "name": {
+              "value": "crankily"
+            }
+          },
+          {
+            "name": {
+              "value": "crudely"
+            }
+          },
+          {
+            "name": {
+              "value": "cursory"
+            }
+          },
+          {
+            "name": {
+              "value": "cuttingly"
+            }
+          },
+          {
+            "name": {
+              "value": "darkly"
+            }
+          },
+          {
+            "name": {
+              "value": "deadpan"
+            }
+          },
+          {
+            "name": {
+              "value": "debated"
+            }
+          },
+          {
+            "name": {
+              "value": "decided"
+            }
+          },
+          {
+            "name": {
+              "value": "deferred"
+            }
+          },
+          {
+            "name": {
+              "value": "deftly"
+            }
+          },
+          {
+            "name": {
+              "value": "degradedly"
+            }
+          },
+          {
+            "name": {
+              "value": "degree of concern"
+            }
+          },
+          {
+            "name": {
+              "value": "delightedly"
+            }
+          },
+          {
+            "name": {
+              "value": "delivered"
+            }
+          },
+          {
+            "name": {
+              "value": "deludedly"
+            }
+          },
+          {
+            "name": {
+              "value": "denial"
+            }
+          },
+          {
+            "name": {
+              "value": "descriptively"
+            }
+          },
+          {
+            "name": {
+              "value": "diplomatically"
+            }
+          },
+          {
+            "name": {
+              "value": "disappointedly"
+            }
+          },
+          {
+            "name": {
+              "value": "disgustedly"
+            }
+          },
+          {
+            "name": {
+              "value": "disjointedly"
+            }
+          },
+          {
+            "name": {
+              "value": "dismay"
+            }
+          },
+          {
+            "name": {
+              "value": "divertingly"
+            }
+          },
+          {
+            "name": {
+              "value": "dolefully"
+            }
+          },
+          {
+            "name": {
+              "value": "due consideration"
+            }
+          },
+          {
+            "name": {
+              "value": "dumbfoundedly"
+            }
+          },
+          {
+            "name": {
+              "value": "easily"
+            }
+          },
+          {
+            "name": {
+              "value": "ecstatically"
+            }
+          },
+          {
+            "name": {
+              "value": "electrically"
+            }
+          },
+          {
+            "name": {
+              "value": "emphatically"
+            }
+          },
+          {
+            "name": {
+              "value": "enterprisingly"
+            }
+          },
+          {
+            "name": {
+              "value": "entranced"
+            }
+          },
+          {
+            "name": {
+              "value": "erringly"
+            }
+          },
+          {
+            "name": {
+              "value": "expansively"
+            }
+          },
+          {
+            "name": {
+              "value": "explained"
+            }
+          },
+          {
+            "name": {
+              "value": "expressly"
+            }
+          },
+          {
+            "name": {
+              "value": "exuberantly"
+            }
+          },
+          {
+            "name": {
+              "value": "fanatically"
+            }
+          },
+          {
+            "name": {
+              "value": "considerable fanfare"
+            }
+          },
+          {
+            "name": {
+              "value": "fearlessly"
+            }
+          },
+          {
+            "name": {
+              "value": "finally"
+            }
+          },
+          {
+            "name": {
+              "value": "flatteringly"
+            }
+          },
+          {
+            "name": {
+              "value": "flawlessly"
+            }
+          },
+          {
+            "name": {
+              "value": "fleetingly"
+            }
+          },
+          {
+            "name": {
+              "value": "flippantly"
+            }
+          },
+          {
+            "name": {
+              "value": "forebodingly"
+            }
+          }, {
+            "name": {
+              "value": "forewarned"
+            }
+          },
+          {
+            "name": {
+              "value": "held forth"
+            }
+          },
+          {
+            "name": {
+              "value": "forthrightly"
+            }
+          },
+          {
+            "name": {
+              "value": "fortitude"
+            }
+          },
+          {
+            "name": {
+              "value": "fruitlessly"
+            }
+          },
+          {
+            "name": {
+              "value": "glazed look"
+            }
+          },
+          {
+            "name": {
+              "value": "glowingly"
+            }
+          },
+          {
+            "name": {
+              "value": "gracefully"
+            }
+          },
+          {
+            "name": {
+              "value": "gratingly"
+            }
+          },
+          {
+            "name": {
+              "value": "grittily"
+            }
+          },
+          {
+            "name": {
+              "value": "groan"
+            }
+          },
+          {
+            "name": {
+              "value": "grossly"
+            }
+          },
+          {
+            "name": {
+              "value": "groused"
+            }
+          },
+          {
+            "name": {
+              "value": "gruesomely"
+            }
+          },
+          {
+            "name": {
+              "value": "guessed"
+            }
+          },
+          {
+            "name": {
+              "value": "guiltily"
+            }
+          },
+          {
+            "name": {
+              "value": "gut"
+            }
+          },
+          {
+            "name": {
+              "value": "half-heartedly"
+            }
+          }, {
+            "name": {
+              "value": "haltingly"
+            }
+          },
+          {
+            "name": {
+              "value": "handsome"
+            }
+          },
+          {
+            "name": {
+              "value": "heartlessly"
+            }
+          },
+          {
+            "name": {
+              "value": "heavily"
+            }
+          },
+          {
+            "name": {
+              "value": "helplessly"
+            }
+          },
+          {
+            "name": {
+              "value": "hilariously"
+            }
+          },
+          {
+            "name": {
+              "value": "hoarsely"
+            }
+          },
+          {
+            "name": {
+              "value": "honestly"
+            }
+          },
+          {
+            "name": {
+              "value": "humoressly"
+            }
+          },
+          {
+            "name": {
+              "value": "hygienically"
+            }
+          },
+          {
+            "name": {
+              "value": "hypocritically"
+            }
+          },
+          {
+            "name": {
+              "value": "hysterically"
+            }
+          },
+          {
+            "name": {
+              "value": "ideally"
+            }
+          },
+          {
+            "name": {
+              "value": "illegally"
+            }
+          },
+          {
+            "name": {
+              "value": "implicitly"
+            }
+          },
+          {
+            "name": {
+              "value": "impeccably"
+            }
+          },
+          {
+            "name": {
+              "value": "implacably"
+            }
+          },
+          {
+            "name": {
+              "value": "implied"
+            }
+          },
+          {
+            "name": {
+              "value": "incensed"
+            }
+          },
+          {
+            "name": {
+              "value": "indulgently"
+            }
+          },
+          {
+            "name": {
+              "value": "inquired"
+            }
+          },
+          {
+            "name": {
+              "value": "insanely"
+            }
+          },
+          {
+            "name": {
+              "value": "insistently"
+            }
+          },
+          {
+            "name": {
+              "value": "ironically"
+            }
+          },
+          {
+            "name": {
+              "value": "judgmentally"
+            }
+          },
+          {
+            "name": {
+              "value": "jubilantly"
+            }
+          },
+          {
+            "name": {
+              "value": "judiciously"
+            }
+          },
+          {
+            "name": {
+              "value": "justification"
+            }
+          },
+          {
+            "name": {
+              "value": "kidded"
+            }
+          },
+          {
+            "name": {
+              "value": "knitting his brow"
+            }
+          },
+          {
+            "name": {
+              "value": "kinkily"
+            }
+          },
+          {
+            "name": {
+              "value": "laconicaly"
+            }
+          },
+          {
+            "name": {
+              "value": "lamely"
+            }
+          },
+          {
+            "name": {
+              "value": "leered"
+            }
+          },
+          {
+            "name": {
+              "value": "literately"
+            }
+          },
+          {
+            "name": {
+              "value": "lovingly"
+            }
+          },
+          {
+            "name": {
+              "value": "lumberingly"
+            }
+          },
+          {
+            "name": {
+              "value": "manically"
+            }
+          },
+          {
+            "name": {
+              "value": "meanly"
+            }
+          },
+          {
+            "name": {
+              "value": "measured tones"
+            }
+          },
+          {
+            "name": {
+              "value": "mechanically"
+            }
+          },
+          {
+            "name": {
+              "value": "mercifully"
+            }
+          },
+          {
+            "name": {
+              "value": "might"
+            }
+          },
+          {
+            "name": {
+              "value": "morbidly"
+            }
+          },
+          {
+            "name": {
+              "value": "mourned"
+            }
+          },
+          {
+            "name": {
+              "value": "mundanely"
+            }
+          },
+          {
+            "name": {
+              "value": "mistakenly"
+            }
+          },
+          {
+            "name": {
+              "value": "meddlingly"
+            }
+          },
+          {
+            "name": {
+              "value": "mysteriously"
+            }
+          },
+          {
+            "name": {
+              "value": "nagged"
+            }
+          },
+          {
+            "name": {
+              "value": "naughtily"
+            }
+          },
+          {
+            "name": {
+              "value": "negatively"
+            }
+          },
+          {
+            "name": {
+              "value": "nicely"
+            }
+          },
+          {
+            "name": {
+              "value": "notably"
+            }
+          },
+          {
+            "name": {
+              "value": "noteworthily"
+            }
+          },
+          {
+            "name": {
+              "value": "obtusely"
+            }
+          },
+          {
+            "name": {
+              "value": "oddly"
+            }
+          },
+          {
+            "name": {
+              "value": "top of his head"
+            }
+          },
+          {
+            "name": {
+              "value": "offensively"
+            }
+          },
+          {
+            "name": {
+              "value": "officiously"
+            }
+          },
+          {
+            "name": {
+              "value": "oily"
+            }
+          },
+          {
+            "name": {
+              "value": "openly"
+            }
+          },
+          {
+            "name": {
+              "value": "painfully"
+            }
+          },
+          {
+            "name": {
+              "value": "panache"
+            }
+          },
+          {
+            "name": {
+              "value": "paradoxically"
+            }
+          },
+          {
+            "name": {
+              "value": "pat"
+            }
+          },
+          {
+            "name": {
+              "value": "pathologically"
+            }
+          },
+          {
+            "name": {
+              "value": "peeped"
+            }
+          },
+          {
+            "name": {
+              "value": "pensively"
+            }
+          },
+          {
+            "name": {
+              "value": "patiently"
+            }
+          },
+          {
+            "name": {
+              "value": "piously"
+            }
+          },
+          {
+            "name": {
+              "value": "placidly"
+            }
+          },
+          {
+            "name": {
+              "value": "pluckily"
+            }
+          },
+          {
+            "name": {
+              "value": "stretching the point"
+            }
+          },
+          {
+            "name": {
+              "value": "pointlessly"
+            }
+          },
+          {
+            "name": {
+              "value": "pondered"
+            }
+          },
+          {
+            "name": {
+              "value": "precariously"
+            }
+          },
+          {
+            "name": {
+              "value": "pretended"
+            }
+          },
+          {
+            "name": {
+              "value": "privately"
+            }
+          },
+          {
+            "name": {
+              "value": "probingly"
+            }
+          },
+          {
+            "name": {
+              "value": "professed"
+            }
+          },
+          {
+            "name": {
+              "value": "projected"
+            }
+          },
+          {
+            "name": {
+              "value": "propaganda"
+            }
+          },
+          {
+            "name": {
+              "value": "punctually"
+            }
+          },
+          {
+            "name": {
+              "value": "purposefully"
+            }
+          },
+          {
+            "name": {
+              "value": "quaveringly"
+            }
+          },
+          {
+            "name": {
+              "value": "quiveringly"
+            }
+          },
+          {
+            "name": {
+              "value": "rabidly"
+            }
+          },
+          {
+            "name": {
+              "value": "radiantly"
+            }
+          },
+          {
+            "name": {
+              "value": "rasped"
+            }
+          },
+          {
+            "name": {
+              "value": "rationally"
+            }
+          },
+          {
+            "name": {
+              "value": "rambled"
+            }
+          },
+          {
+            "name": {
+              "value": "readily"
+            }
+          },
+          {
+            "name": {
+              "value": "realized"
+            }
+          },
+          {
+            "name": {
+              "value": "rebuffingly"
+            }
+          },
+          {
+            "name": {
+              "value": "rebutted"
+            }
+          },
+          {
+            "name": {
+              "value": "recklessly"
+            }
+          },
+          {
+            "name": {
+              "value": "recounted"
+            }
+          },
+          {
+            "name": {
+              "value": "refused"
+            }
+          },
+          {
+            "name": {
+              "value": "rehearsed"
+            }
+          },
+          {
+            "name": {
+              "value": "relented"
+            }
+          },
+          {
+            "name": {
+              "value": "relish"
+            }
+          },
+          {
+            "name": {
+              "value": "remarked with interest"
+            }
+          },
+          {
+            "name": {
+              "value": "remembered"
+            }
+          },
+          {
+            "name": {
+              "value": "remorsefully"
+            }
+          },
+          {
+            "name": {
+              "value": "repeated"
+            }
+          },
+          {
+            "name": {
+              "value": "reported"
+            }
+          },
+          {
+            "name": {
+              "value": "reservation"
+            }
+          },
+          {
+            "name": {
+              "value": "resignedly"
+            }
+          },
+          {
+            "name": {
+              "value": "robustly"
+            }
+          },
+          {
+            "name": {
+              "value": "russian"
+            }
+          },
+          {
+            "name": {
+              "value": "sagely"
+            }
+          },
+
+          {
+            "name": {
+              "value": "satirically"
+            }
+          },
+          {
+            "name": {
+              "value": "second-guessed"
+            }
+          },
+          {
+            "name": {
+              "value": "secretively"
+            }
+          },
+          {
+            "name": {
+              "value": "selfishly"
+            }
+          },
+          {
+            "name": {
+              "value": "seriously"
+            }
+          },
+          {
+            "name": {
+              "value": "slowly"
+            }
+          },
+          {
+            "name": {
+              "value": "snapped"
+            }
+          },
+          {
+            "name": {
+              "value": "soberly"
+            }
+          },
+          {
+            "name": {
+              "value": "spoke softly"
+            }
+          },
+          {
+            "name": {
+              "value": "soothingly"
+            }
+          },
+          {
+            "name": {
+              "value": "speculated"
+            }
+          },
+          {
+            "name": {
+              "value": "stabbing in the dark"
+            }
+          },
+          {
+            "name": {
+              "value": "standoffishly"
+            }
+          },
+          {
+            "name": {
+              "value": "stereotypically"
+            }
+          },
+          {
+            "name": {
+              "value": "stiltedly"
+            }
+          },
+          {
+            "name": {
+              "value": "stock answer"
+            }
+          },
+          {
+            "name": {
+              "value": "sumarised"
+            }
+          },
+          {
+            "name": {
+              "value": "superciliously"
+            }
+          },
+          {
+            "name": {
+              "value": "superficially"
+            }
+          },
+          {
+            "name": {
+              "value": "swiftly"
+            }
+          },
+          {
+            "name": {
+              "value": "tellingly"
+            }
+          },
+          {
+            "name": {
+              "value": "tenderly"
+            }
+          },
+          {
+            "name": {
+              "value": "thoughtlessly"
+            }
+          },
+          {
+            "name": {
+              "value": "timelessly"
+            }
+          },
+          {
+            "name": {
+              "value": "transparently"
+            }
+          },
+          {
+            "name": {
+              "value": "triflingly"
+            }
+          },
+          {
+            "name": {
+              "value": "triumphantly"
+            }
+          },
+          {
+            "name": {
+              "value": "unaccountably"
+            }
+          },
+          {
+            "name": {
+              "value": "uncannily"
+            }
+          },
+          {
+            "name": {
+              "value": "uneasily"
+            }
+          },
+          {
+            "name": {
+              "value": "ungramatically"
+            }
+          },
+          {
+            "name": {
+              "value": "unconditional offer"
+            }
+          },
+          {
+            "name": {
+              "value": "unseemly"
+            }
+          },
+          {
+            "name": {
+              "value": "unsteadily"
+            }
+          },
+          {
+            "name": {
+              "value": "unthinkingly"
+            }
+          },
+          {
+            "name": {
+              "value": "upheld"
+            }
+          },
+          {
+            "name": {
+              "value": "uproariously"
+            }
+          },
+          {
+            "name": {
+              "value": "muttered"
+            }
+          },
+          {
+            "name": {
+              "value": "vacuously"
+            }
+          },
+          {
+            "name": {
+              "value": "in vain"
+            }
+          },
+          {
+            "name": {
+              "value": "vainly"
+            }
+          },
+          {
+            "name": {
+              "value": "ventured"
+            }
+          },
+          {
+            "name": {
+              "value": "vicariously"
+            }
+          },
+          {
+            "name": {
+              "value": "visibly moved"
+            }
+          },
+          {
+            "name": {
+              "value": "wantonly"
+            }
+          },
+          {
+            "name": {
+              "value": "warily"
+            }
+          },
+          {
+            "name": {
+              "value": "wastefully"
+            }
+          },
+          {
+            "name": {
+              "value": "weakly"
+            }
+          },
+          {
+            "name": {
+              "value": "whined"
+            }
+          },
+          {
+            "name": {
+              "value": "willfully"
+            }
+          },
+          {
+            "name": {
+              "value": "winsomely"
+            }
+          },
+          {
+            "name": {
+              "value": "wistfully"
+            }
+          },
+          {
+            "name": {
+              "value": "woefully"
+            }
+          },
+          {
+            "name": {
+              "value": "worked out"
+            }
+          },
+          {
+            "name": {
+              "value": "wrote"
+            }
+          },
+          {
+            "name": {
+              "value": "wryly"
+            }
+          },
+          {
+            "name": {
+              "value": "xerophytically"
+            }
+          },
+          {
+            "name": {
+              "value": "yolked"
+            }
+          },
+          {
+            "name": {
+              "value": "yuletide"
+            }
+          },
+          {
+            "name": {
+              "value": "zealously"
+            }
+          },
+          {
+            "name": {
+              "value": "zestfully"
+            }
+          },
+          {
+            "name": {
+              "value": "rejoinder"
+            }
+          },
+          {
+            "name": {
+              "value": "acerbically"
+            }
+          },
+          {
+            "name": {
+              "value": "unwaveringly"
+            }
+          },
+          {
+            "name": {
+              "value": "exclaimed"
+            }
+          },
+          {
+            "name": {
+              "value": "perpetually"
+            }
+          }
+        ]
+      }]
+    }
+  }
+}

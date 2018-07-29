@@ -1,0 +1,29 @@
+{
+  "name": "alexa-tom-swifty",
+  "version": "1.0.0",
+  "description": "Alexa skill for Tom Swifty jokes.",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phil-kahrl/alexa-tom-swifty.git"
+  },
+  "keywords": [
+    "javascript",
+    "alexa",
+    "tom",
+    "swifty"
+  ],
+  "author": "Phillip Kahrl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phil-kahrl/alexa-tom-swifty/issues"
+  },
+  "homepage": "https://github.com/phil-kahrl/alexa-tom-swifty#readme"
+}

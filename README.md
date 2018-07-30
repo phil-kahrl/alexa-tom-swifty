@@ -1,7 +1,5 @@
 # tom-swifty Alexa Skill
 
-WARNING:  This repo may contain poor attempts at humor and should not be viewed by persons with a low tolerance for bad jokes.
-
 ## What it does
 
 This repo is the source code for the Alexa skill on Amazon:
